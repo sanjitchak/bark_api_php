@@ -17,7 +17,7 @@ CURLOPT_POSTFIELDS=>array(
     'event' => 'new.bark'
 ),
 CURLOPT_HTTPHEADER => array(
-"Authorization: Bearer 6bffe955335cbacfeae6d2004453e49a2630a232",
+"Authorization: Bearer {token}",
 "Accept: application/vnd.bark.pub_v1+json"
   ),
  ));
